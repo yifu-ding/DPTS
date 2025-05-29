@@ -1,0 +1,29 @@
+{
+    "config": {
+        "lambda_es": 0.8,
+        "lambda_ds": 0.8,
+        "t_star": 5,
+        
+        "tree_width": 4,
+        "tree_depth": 16,
+        "step_method": "none",
+        "cot_method": "DPTS",
+        "voting_method": "all",
+        "max_new_tokens": 2048,
+        "max_rollout": 20,
+        "max_step_time": 120,
+
+        "mini_step": true
+    },
+    "llm_config": {
+        "max_new_tokens": 100,
+        "do_sample": true,
+        "num_beams": 4,
+        "temperature": 1.0,
+        "top_p": 0.9
+    },
+    "prm_config": {
+
+    }
+}
+
